@@ -61,8 +61,8 @@ def main():
     train_dataset = NSMCDataset(train_label, train_input_ids, train_attention_mask)
     test_dataset = NSMCDataset(test_label, test_input_ids, test_attention_mask)
 
-    train_loader = DataLoader(train_dataset, batch_size=80, shuffle=True)
-    test_loader = DataLoader(test_dataset, batch_size=16, shuffle=False)
+    train_loader = DataLoader(train_dataset, batch_size=80, shuffle=True, num_workers=8)
+    test_loader = DataLoader(test_dataset, batch_size=16, shuffle=False, num_workers=8)
 
     if torch.cuda.is_available():
         device = torch.device('cuda')
