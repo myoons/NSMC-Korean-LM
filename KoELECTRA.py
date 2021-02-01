@@ -127,8 +127,8 @@ def main(args):
             input_ids = input_ids.to(device)
             attention_masks = attention_masks.to(device)
 
-            output = model(input_ids, attention_masks)[0]
-            _, pred = torch.max(output, 1)
+            output = model(input_ids, attention_masks)[0]  # (batch_size, 2)
+            _, pred = torch.max(output, 1)  # (batch_size)
 
             loss = F.cross_entropy(output, label)
             loss.backward()
