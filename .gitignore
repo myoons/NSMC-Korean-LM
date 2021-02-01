@@ -1,3 +1,4 @@
-data/
-weights/
+data/ratings*
+data/eval.h5
+logs/
 __pycache__
