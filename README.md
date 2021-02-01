@@ -73,7 +73,7 @@ _아래는 Tensorboard 를 사용하여 확인한 그래프입니다._
 
 ## **평가하기**
 _rating_test.txt 외에 data/ 에 있는 eval.txt 를 사용하여 학습된 모델을 평가할 수 있습니다._  
-_eval.txt 는 최근 네이버 영화 리뷰에서 50개 (긍정 25개, 부정 25개) Sampling 해서 만든 데이터셋입니다._
+_eval.txt 는 최근 네이버 영화 리뷰에서 50개 (긍정 25개, 부정 25개) Sampling 해서 만든 데이터셋입니다._  
 _구성은 NSMC Dataset 과 동일합니다._  
 _NSMC_eval.txt 는 eval.txt 에 대한 평가 결과입니다._  
 <br/>
