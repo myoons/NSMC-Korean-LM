@@ -1,4 +1,4 @@
-## _Hugging Face KoELECTRA [1] 를 사용하여 NSMC [2] 문제를 풀어보았습니다._
+## _Hugging Face KoELECTRA 를 사용하여 NSMC 문제를 풀어보았습니다._
 
 <br/>
 
@@ -91,8 +91,8 @@ _**예시**_
 <br/>
 
 ## Reference
-[0] _**[ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators](https://arxiv.org/abs/2001.07685)**_
+[1] _**[ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators](https://arxiv.org/abs/2001.07685)**_
 
-[1] _**[KoELECTRA - Github](https://github.com/monologg/KoELECTRA)**_
+[2] _**[KoELECTRA - Github](https://github.com/monologg/KoELECTRA)**_
 
-[2] _**[NSMC Dataset](https://github.com/e9t/nsmc)**_
+[3] _**[NSMC Dataset](https://github.com/e9t/nsmc)**_
