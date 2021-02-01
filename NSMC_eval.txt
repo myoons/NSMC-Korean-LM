@@ -1,0 +1,352 @@
+Train Accuracy : 0.9403141140937805
+Test Accuracy : 0.9074801206588745
+Eval Accuracy : 0.8999999761581421
+
+[1] 홍콩을 버린자의 영화.관객이 그를 버렸다.
+ - Label : -
+ - Prediction : -
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.9645477533340454
+
+
+[2] 재개봉 용아맥으로 봤다. 대박이다
+ - Label : +
+ - Prediction : +
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.9911684989929199
+
+
+[3] 뒤돌아보게 만든 영화. 픽사 고맙습니다.
+ - Label : +
+ - Prediction : +
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.9957861304283142
+
+
+[4] 삶의 목적은 무엇인가를 이뤄내는 것이 아닌 계속 살아간다는 것에 있다.
+ - Label : +
+ - Prediction : +
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.9887722134590149
+
+
+[5] 진짜 개슬픔 혼자가서 질질 짜고왔음 제발 여러분 보세요 제발 진짜 개슬퍼요 아 진짜 어떡해 후유증 개오져요
+ - Label : +
+ - Prediction : +
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.9872235059738159
+
+
+[6] 졸려졸려졸려. 반전 별거 없음. 노잼
+ - Label : -
+ - Prediction : -
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.9989738464355469
+
+
+[7] 재밌엇어요~ 만드는데 정말힘들었을거같음
+ - Label : +
+ - Prediction : +
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.9651479125022888
+
+
+[8] 정신좀 차리자... 쪽바리놈들 하는짓 보고...
+ - Label : -
+ - Prediction : -
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.9331125617027283
+
+
+[9] 친구추천으로 별 생각없이 봤다가 한 대 얻어맞은 듯한 감동이었어요! 추천합니다~
+ - Label : +
+ - Prediction : +
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.997794508934021
+
+
+[10] 사실 별로 기대안하고 봤는데 재밌어요!감동도 있고 반전도 있고!지렁이도 밟으면 꿈틀한다!
+ - Label : +
+ - Prediction : +
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.9984001517295837
+
+
+[11] 아름답다 이 영화에 모든것들이 고맙습니다 이런 작품을 만들어서영원히 감사합니다 사랑하고있어.
+ - Label : +
+ - Prediction : +
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.9980917572975159
+
+
+[12] 오늘도 바닷속을 유랑했던 나를 위한 자그마한 선물같던 영화
+ - Label : +
+ - Prediction : +
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.9952636957168579
+
+
+[13] We live in a twilight world.
+ - Label : +
+ - Prediction : +
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.9924554824829102
+
+
+[14] 아이와 함께 좋은 시간 보냈습니다
+ - Label : +
+ - Prediction : +
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.9924237728118896
+
+
+[15] 나도 저기 껴서.. 그냥 내 비밀 말하고 싶다. 말하고 털고 싶다.
+ - Label : +
+ - Prediction : -
+ - Correct : X
+ - softmax(NN(x))[label_c] :0.6583076119422913
+
+
+[16] 굉장한 명작이다. 저격수 간의 긴박감 넘치는 액션 뿐 아니라 전쟁의 비극과 휴머니티 까지 영화에 담아냈다. 재미와 작품성을 모두 이루어낸 걸작 
+ - Label : +
+ - Prediction : +
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.9983837604522705
+
+
+[17] 인생에 대해 많이 깨닫게 해주는 영화인 굿 같아요
+ - Label : +
+ - Prediction : +
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.9968480467796326
+
+
+[18] 200명ㅋㅋ케 Ucc냐 X들아
+ - Label : -
+ - Prediction : +
+ - Correct : X
+ - softmax(NN(x))[label_c] :0.5037771463394165
+
+
+[19] 그래픽은 화려했는데 지루하네요
+ - Label : -
+ - Prediction : -
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.998782217502594
+
+
+[20] 애 우는거 스트레스 받아.할아버지가 애써서 할머니 살렸는데 바로 죽이는것도 어이없고 좋은 배우들 여럿 데려다놓고 이렇게 밖에 못만드는건 감독이 문제.한숨만.. 보다가 관둠.극장가서 안본게 천만다행이지. 휴.
+ - Label : -
+ - Prediction : -
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.9989771842956543
+
+
+[21] 정말 처음 봤을때 충격이었음... 워쇼스키 형제 아니 자매가 이런 엄청난 sf영화를 만들다니.. 
+ - Label : +
+ - Prediction : +
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.9857662916183472
+
+
+[22] 재미없어요.. ㅋㅋ 이게 끝이라니 정말 왜봤을까 지루하고 허무한영화 이런영화가 천만에 가깝다니 그때 안본나를 칭찬합니다~
+ - Label : -
+ - Prediction : -
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.9983803033828735
+
+
+[23] 할머니 보고 싶어질때마다 보고 싶은 영화 
+ - Label : +
+ - Prediction : +
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.9745489954948425
+
+
+[24] 중국인들은 일말의 양심이란게 없냐? 해충들이 만든 해충같은 영화
+ - Label : -
+ - Prediction : -
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.9982585310935974
+
+
+[25] 한심한 것들아 쯧쯧
+ - Label : -
+ - Prediction : -
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.8405295610427856
+
+
+[26] 3류 무비. 4류 무비. 5류무비. 10글짜 채웠다.
+ - Label : -
+ - Prediction : -
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.9599233865737915
+
+
+[27] 시간이 아깝다 시간이 아깝다 시간이 아깝다 시간이 아깝다 시간이 아깝다
+ - Label : -
+ - Prediction : -
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.9980798959732056
+
+
+[28] 나라를 수호하다 순국하신 천안함 장병 여러분께 감사의 말씀을 드립니다.
+ - Label : -
+ - Prediction : +
+ - Correct : X
+ - softmax(NN(x))[label_c] :0.9748825430870056
+
+
+[29] 불매운동비웃는매국노들
+ - Label : -
+ - Prediction : -
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.8140177130699158
+
+
+[30] 현대사회를 살아가는 우리 어른이들에게 필요한 영화라고 생각해요.영화보고 나서 여운이 길게 남아 생각을 많이 하게 되서 좋았어요.
+ - Label : +
+ - Prediction : +
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.9985999464988708
+
+
+[31] 바통터치를 위해 앞만 보고 달리다가 정작 자신이 넘어져 버린 케이스.저스티스 리그 스나이더 컷은 안 그러길 바랍니다.
+ - Label : -
+ - Prediction : -
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.6434167623519897
+
+
+[32] 시작부터 욱일기 나와..쓸데없는 일본어가 중간에 튀어 나오기도 하고. 한심한 미국 양키 놈들.. 독일 히틀러와 일본군에게 학살을 당해봤어야 일본 놈 군대 깃발 보고 치를 떨 텐데 ... 정신 못차리고 있어. 네놈들은 일본 원숭이한테서 핵 좀 맞아봐야 해.
+ - Label : -
+ - Prediction : -
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.89885014295578
+
+
+[33] 중간에 보다가 나왔음 뭘 설명하려는지 모르겠는 영화 재미도 없고 감동도없고 장윤주 찡찡대기 바쁨김선영 딸도 답없고 교회영화인지 참 주님 주님 이러는게 정말 싫었음
+ - Label : -
+ - Prediction : -
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.9991076588630676
+
+
+[34] 그냥 배우들만 볼만한 영화.
+ - Label : -
+ - Prediction : -
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.9985962510108948
+
+
+[35] 진짜 OOO기도 이런쓰레기가 없다 3류도 안되는 저질 떡밥뿌리기와 그것마저 회수조차 못하는 무능한 스토리
+ - Label : -
+ - Prediction : -
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.998938262462616
+
+
+[36] 니 이딴게 영화냐?돈 아까워 디지겠다뭐 평가할게없다
+ - Label : -
+ - Prediction : -
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.9988020658493042
+
+
+[37] 한 개도 아까워요 0.2점 정도
+ - Label : -
+ - Prediction : -
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.9990037083625793
+
+
+[38] 어떤 인생이 어떻게 아름다운 거지?
+ - Label : -
+ - Prediction : +
+ - Correct : X
+ - softmax(NN(x))[label_c] :0.9336690902709961
+
+
+[39] 정말 재미있지 않는 영화 ㅡㅡㅡㅡ삐비비비
+ - Label : -
+ - Prediction : -
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.9988999366760254
+
+
+[40] 존나 재미없다 + 6자밖에 쓸 게 없는 걸 10자씩 쓰라하네
+ - Label : -
+ - Prediction : -
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.9991176724433899
+
+
+[41] 개뜬금없는 신파반복 악역연기 잘해서 오는 빡침보다내가 이걸 영화관가서 안봤다는 안도감이 크다평점 8점인거보고 탁치고간다 ㅋㅋ
+ - Label : -
+ - Prediction : -
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.9937034249305725
+
+
+[42] 페미니즘 영화가 좋은게 얼마나 많은데..이건 걍 억지로 페미로 돈벌려는 영화..작품성도 별로 없는데 왜 평점이 9점이지?
+ - Label : -
+ - Prediction : -
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.9988497495651245
+
+
+[43] 81년 된 애니메이션이지만 작화, 스토리, OST가 정말 뛰어나다. 주제가인 When you Wish Upon a Star은 지금도 유명하다. 다만 오래된 영화라서 동심파괴적인 내용이 있어 아이들이 볼 때는 주의하는 게 좋을 것 같다.
+ - Label : +
+ - Prediction : +
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.9973487854003906
+
+
+[44] 와... 정말 이 소리밖에 안나옵니다. 가서 콧물 눈물 짜면서 조용히 울었는데 양 옆에도 다 울고 있었습니다 ㅋㅋㅋ
+ - Label : +
+ - Prediction : +
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.9938104748725891
+
+
+[45] 보는동안 답답하고 막히는 기분이였는데현실적이어서 너무 좋았고 엄마랑 같이 보고 싶은 영화였어요 !저도 모르게 눈물이 .. ㅠㅠ배우들 연기 짱입니다
+ - Label : +
+ - Prediction : +
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.9985962510108948
+
+
+[46] 뭐 하나 빠질 것 없는 명작! 모노노케 히메와 함께 최고라고 생각하는 지브리 영화.
+ - Label : +
+ - Prediction : +
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.9985182881355286
+
+
+[47] 편집, 영상미가 좋아요
+ - Label : +
+ - Prediction : +
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.9949721097946167
+
+
+[48] 승이아역 연기한 꼬마가 제머리속에 둥둥 떠다녔음
+ - Label : +
+ - Prediction : +
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.7056208252906799
+
+
+[49] 역시 액션은 시간가는줄 모르고 볼만했지만 마지막에 우리나라 영화에서 보이던 억지감동이 있어 조금 아쉬웠음
+ - Label : +
+ - Prediction : +
+ - Correct : O
+ - softmax(NN(x))[label_c] :0.9597600698471069
+
+
+[50] 재미와 감동 다 있지만 그걸 느끼려면 한번 봐 가지곤 안되는 영화
+ - Label : +
+ - Prediction : -
+ - Correct : X
+ - softmax(NN(x))[label_c] :0.6201401948928833
