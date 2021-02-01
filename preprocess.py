@@ -7,9 +7,9 @@ from tqdm import tqdm
 from transformers import ElectraTokenizer
 
 
-def preprocess(args):
+def preprocess(args, file_name):
 
-    if os.path.isfile('nsmc.h5'):
+    if os.path.isfile(f'{args.data_root}/{file_name}.h5'):
         print("H5 File already exists")
     else:
         train_dataset = pd.read_csv(f'{args.data_root}/ratings_train.txt', sep='\t').dropna(axis=0)  # Remove NaN
@@ -23,7 +23,7 @@ def preprocess(args):
 
         tokenizer = ElectraTokenizer.from_pretrained("monologg/koelectra-base-v3-discriminator")
 
-        nsmc = h5py.File(f'{args.data_root}/nsmc.h5', 'w', rdcc_nslots=11213, rdcc_nbytes=1024**3, rdcc_w0=1)
+        nsmc = h5py.File(f'{args.data_root}/{file_name}.h5', 'w', rdcc_nslots=11213, rdcc_nbytes=1024**3, rdcc_w0=1)
 
         ######################################################################################################
         ######################################### Train Dataset ##############################################
@@ -141,4 +141,6 @@ def preprocess(args):
                             dtype=np.long,
                             chunks=(1000,),
                             maxshape=(49157,))
+
+        nsmc.close()
     
