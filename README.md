@@ -1,4 +1,4 @@
-# _Hugging Face KoELECTRA [1] 를 사용하여 NSMC [2] 문제를 풀어보았습니다._
+## _Hugging Face KoELECTRA [1] 를 사용하여 NSMC [2] 문제를 풀어보았습니다._
 
 <br/>
 
