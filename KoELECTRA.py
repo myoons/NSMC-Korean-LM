@@ -41,7 +41,7 @@ def arg_parse():
 
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('--n_epochs', type=int, default=5, help='number of epochs of training')
+    parser.add_argument('--n_epochs', type=int, default=8, help='number of epochs of training')
     parser.add_argument('--batch_size', type=int, default=80, help='size of the batches')
     parser.add_argument('--data_root', type=str, default='/home/myoons/PycharmProjects/pythonProject/NSMC/data', help='root directory of the dataset')
     parser.add_argument('--lr', type=float, default=1e-5, help='initial learning rate')
@@ -193,7 +193,7 @@ def main(args):
 
             torch.save({
                 'epoch': epoch,
-                'model_state_dict': model.state_dict(),
+                'model_state_dict': model.module.state_dict(),
                 'optimizer_state_dict': optimizer.state_dict(),
                 'train_accuracy': train_accuracy,
                 'test_accuracy': test_accuracy,
@@ -205,6 +205,6 @@ if __name__ == '__main__':
     args = arg_parse()  # Setting arguments
 
     if not os.path.isfile(f'{args.data_root}/nsmc.h5'):
-        preprocess(args)
+        preprocess(args, 'nsmc')
 
     main(args)
